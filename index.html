@@ -15,33 +15,30 @@
 
 <body>
 
-  <div class="container-sm">
-    <div class="row border<!-- justify-content-center">
-      <div class="col-auto border d-flex justify-content-center">
-        <img src="pp.png" alt="..." style="max-width:150px; min-width:100px;" class="img-thumbnail">
+  <div class="container-fluid">
+    <div class="row  d-flex justify-content-center mb-2">
+      <div class="col-sm-2  d-flex justify-content-center">
+        <img src="pp.png" alt="..." style="max-width:200px; min-width:100px;" class="rounded-circle">
       </div>
-      <div class="col-auto border d-flex align-items-end">
-        <div class="input-group m-1 ">
+      <div class="col-sm-4  d-flex align-items-end">
+        <div class="input-group m-1">
           <div class="custom-filemt-3">
+            <label class="custom-file-label" for="inputGroupFile01">No File Selected</label>
             <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-            <label class="custom-file-label" for="inputGroupFile01">No File</label>
 
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row border d-flex justify-content-center">
-      <div class="col-auto border d-flex justify-content-center">
+    <div class="row  d-flex justify-content-center">
+      <div class="col-sm-6  justify-content-center">
         <form class="m-1">
-          <div class="form-group mb-3">
+          <div class="form-group">
             <!--<div class="form-group-prepend">
               <span class="form-group-text" id="basic-addon1">@</span>
             </div> -->
             <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-          </div>
-          <div class="form-group mb-3">
-            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
           </div>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -49,21 +46,22 @@
             </div>
             <input type="date" class="form-control" id="date" name="date">
           </div>
-          <div class="form-group mb-3">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          <div class="form-group">
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
           </div>
-          <div class="form-group mb-3">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          <div class="form-group">
+            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number">
           </div>
-          <div class="form-group mb-3">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          <div class="form-group">
+            <textarea class="form-control" id="address" rows="3" placeholder="Permanent Address"></textarea>
           </div>
-          <div class="form-group mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="description"></textarea>
+          <div class="form-group">
+            <textarea class="form-control" id="description" rows="3" placeholder="Describe yourself"></textarea>
+          </div>
+          <div class="d-flex justify-content-center">
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </form>
-
       </div>
     </div>
   </div>
